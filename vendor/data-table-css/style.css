@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,500,600,700,800');
+
+.bootstrap-data-table-panel .dataTables_filter {
+  text-align: right;
+}
+.bootstrap-data-table-panel .dataTables_filter .form-control {
+  margin-left: 10px;
+}
+.bootstrap-data-table-panel .dataTables_filter .form-control:hover,
+.bootstrap-data-table-panel .dataTables_filter .form-control:focus {
+  background: transparent;
+}
+.dataTables_length {
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+}
+@media (max-width: 767px) {
+  .dataTables_length {
+    margin-left: 10px;
+  }
+  select.input-sm {
+    width: 167px;
+  }
+  .bootstrap-data-table-panel .dataTables_filter {
+    margin-left: 12px;
+    text-align: left;
+    padding-right: 10px;
+  }
+  .bootstrap-data-table-panel .dataTables_filter .form-control {
+    margin-left: 0px;
+  }
+}
